@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "sml-highlighter:toggle"
   },
-  "repository": "https://github.com/atom/sml-highlighter",
+  "repository": "https://github.com/liyouvane/sml-highlighter",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
