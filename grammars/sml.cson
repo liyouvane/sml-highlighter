@@ -1,0 +1,38 @@
+'scopeName': 'source.sml'
+'name':'SML'
+'fileTypes':['sml']
+
+'patterns':[
+    {
+        'match': '\\b(val|let|in|end|op|datatype|type|infix)\\b'
+        'name': 'keyword.other.sml'
+    }
+    {
+        'match': '\\b(if|then|else)\\b'
+        'name': 'keyword.control.sml'
+    }
+    {
+        'match': '\\b(fun)\\s+(\\w+)\\b'
+        'captures':
+            '1':
+                'name': 'keyword.control.sml'
+            '2':
+                'name': 'entity.name.function.sml'
+        'name': 'meta.function.sml'
+    }
+    {
+        'match': '\\b\\d*\\.?\\d+\\b'
+        'name': 'constant.numeric.sml'
+    }
+    {
+        'begin': '\\(\\*'
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.definition.comment.begin.sml'
+        'end': '\\*\\)'
+        'endCaptures':
+          '0':
+            'name': 'punctuation.definition.comment.end.sml'
+        'name': 'comment.block.sml'
+    }
+]

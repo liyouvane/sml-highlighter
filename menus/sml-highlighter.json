@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle sml-highlighter",
+        "command": "sml-highlighter:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "sml-highlighter",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "sml-highlighter:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

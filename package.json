@@ -1,0 +1,18 @@
+{
+  "name": "sml-highlighter",
+  "main": "./lib/sml-highlighter",
+  "version": "0.0.0",
+  "description": "This package is for highlighting Standard ML language. Very simple. Enjoy!",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "sml-highlighter:toggle"
+  },
+  "repository": "https://github.com/atom/sml-highlighter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
