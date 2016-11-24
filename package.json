@@ -1,7 +1,7 @@
 {
   "name": "sml-highlighter",
   "main": "./lib/sml-highlighter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "This package is for highlighting Standard ML language. Very simple. Enjoy!",
   "keywords": [],
   "activationCommands": {
