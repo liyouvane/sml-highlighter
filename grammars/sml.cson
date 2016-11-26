@@ -1,7 +1,6 @@
 'scopeName': 'source.sml'
 'name':'SML'
 'fileTypes':['sml']
-
 'patterns':[
     {
         'match': '\\b(val|let|in|end|op|datatype|type|infix)\\b'
