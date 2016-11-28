@@ -8,8 +8,9 @@ Enjoy coding!
 
 How to Download:
 
-In your Atom editor, preferences->install->search"sml-highlighter" and download to install!
+In your Atom editor, `preferences->install->search"sml-highlighter"` and download to install!
 
 Or
 
 go to http://github.com/liyouvane/sml-highlighter to download the whole package and put them into your local package folder (which is always `~/.atom/packages`)
+
