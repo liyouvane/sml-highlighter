@@ -3,7 +3,7 @@
 'fileTypes':['sml']
 'patterns':[
     {
-        'match': '\\b(val|let|in|end|op|datatype|type|infix)\\b'
+        'match': '\\b(val|let|in|end|op|datatype|type|infix|handle|exception)\\b'
         'name': 'keyword.other.sml'
     }
     {
